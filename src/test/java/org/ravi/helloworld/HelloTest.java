@@ -19,7 +19,7 @@ public class HelloTest {
 	@BeforeTest
 	public void beforeTest() {
 		
-		System.setProperty("webdriver.firefox.marionette","resources\\geckodriver.exe");
+		System.setProperty("webdriver.firefox.marionette","C:\\Test\\Sample\\resources\\geckodriver.exe");
 		driver = new FireFoxDriver();
 		driver.get("http://demoaut.com");
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
